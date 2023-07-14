@@ -1,0 +1,25 @@
+{
+  "name": "insured-mine",
+  "version": "1.0.0",
+  "description": "InsuredMine Node JS Assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Itz-mohan/insured-mine.git"
+  },
+  "author": "Mohanraj B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Itz-mohan/insured-mine/issues"
+  },
+  "homepage": "https://github.com/Itz-mohan/insured-mine#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
