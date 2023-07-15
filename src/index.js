@@ -160,6 +160,7 @@ const SearchPolicyInfo = async (req, res) => {
   }
 };
 
+//Get the Policy by Each User Function
 const PolicyByEachUser = async (req, res) => {
   try {
     const pipeline = [
@@ -182,6 +183,7 @@ const PolicyByEachUser = async (req, res) => {
   }
 };
 
+//Create a Message and transfer the message using scheduler Function
 const Message = async (req, res) => {
   try {
     const timezone = 'America/New_York';

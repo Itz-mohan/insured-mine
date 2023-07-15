@@ -6,10 +6,10 @@ function parserCSV(file, callback) {
     const results = [];
 
     const readableStream = new Readable();
-    readableStream._read = () => {}; // This is required to create a readable stream
+    readableStream._read = () => {};
 
     readableStream.push(file);
-    readableStream.push(null); // Signal the end of the stream
+    readableStream.push(null);
 
     readableStream
       .pipe(csv())
